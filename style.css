@@ -1,0 +1,176 @@
+
+header {
+    background-color: #ffff00; /* Cor amarela */
+    padding: 0;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+  
+.logo-e-lista {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Distribui espaço entre logo e lista */
+}
+
+  .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 200px;
+    height: 200px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    display: flex; /* Alinhamento em flexbox */
+    justify-content: center; /* Centraliza os itens na linha */
+    align-items: center; /* Alinha verticalmente no centro */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animação "tituloAparecendo" já definida no exemplo anterior */
+  
+  h2 {
+    animation: tituloAparecendo 1s ease-in-out;
+    display: inline-block;
+  }
+  
+  h2 span {
+    animation: tituloAparecendo 0.5s ease-in-out forwards;
+    animation-delay: 0.1s;
+    display: inline-block;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .sobre {
+    padding: 20px;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block; /* Permite que o texto alternativo fique ao lado da imagem */
+  }
+  
+ img {
+    height: 200px;
+    width: auto;
+    padding: 0;
+    align-content: center;
+ }
+  
+  /* Seções de Raças e Filhotes */
+  
+  .racas, .filhotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .raca, .filhote {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .raca h3, .filhote h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Seção de Contato */
+  
+  #contato form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color:white ;
+    background-color: #333;
+  }
+  
+  #contato label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contato input,
+  #contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  #contato textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  #contato button {
+    background-color: #ffff00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contato button:hover {
+    background-color: blue;
+  }
+  
+  footer {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
